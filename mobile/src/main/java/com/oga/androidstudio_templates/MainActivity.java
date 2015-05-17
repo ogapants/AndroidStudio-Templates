@@ -12,6 +12,7 @@ import android.widget.ListView;
 import com.oga.androidstudio_templates.activities.BlankActivity;
 import com.oga.androidstudio_templates.activities.BlankActivityWithFragment;
 import com.oga.androidstudio_templates.activities.FullscreenActivity;
+import com.oga.androidstudio_templates.activities.LoginActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,12 +21,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-
     private final List<Class<? extends Activity>> classes = Arrays.asList(
-            MainActivity.class,
             BlankActivity.class,
             BlankActivityWithFragment.class,
-            FullscreenActivity.class
+            FullscreenActivity.class,
+            LoginActivity.class
     );
 
     @Override
