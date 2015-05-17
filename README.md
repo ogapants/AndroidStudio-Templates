@@ -1,0 +1,2 @@
+# AndroidStudio-Templates
+AndroidStudioで新規ファイル作るときに自動生成されるテンプレート集
