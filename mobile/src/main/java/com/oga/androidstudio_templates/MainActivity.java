@@ -1,5 +1,6 @@
 package com.oga.androidstudio_templates;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.widget.ListView;
 
 import com.oga.androidstudio_templates.activities.BlankActivity;
 import com.oga.androidstudio_templates.activities.BlankActivityWithFragment;
+import com.oga.androidstudio_templates.activities.FullscreenActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,20 +20,20 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final List<Class<? extends AppCompatActivity>> classes =
-            Arrays.asList(
-                    MainActivity.class,
-                    BlankActivity.class,
-                    BlankActivityWithFragment.class
-            );
+
+    private final List<Class<? extends Activity>> classes = Arrays.asList(
+            MainActivity.class,
+            BlankActivity.class,
+            BlankActivityWithFragment.class,
+            FullscreenActivity.class
+    );
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         List<String> list = new ArrayList<>();
-        for (Class<? extends AppCompatActivity> aClass : classes) {
+        for (Class<? extends Activity> aClass : classes) {
             list.add("go to " + aClass.getSimpleName());
         }
 

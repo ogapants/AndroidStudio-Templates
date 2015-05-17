@@ -24,6 +24,12 @@
             android:name=".activities.BlankActivityWithFragment"
             android:label="@string/title_activity_blank_activity_with_fragment" >
         </activity>
+        <activity
+            android:name=".activities.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
