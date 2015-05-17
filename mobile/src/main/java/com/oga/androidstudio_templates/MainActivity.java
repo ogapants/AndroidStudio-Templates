@@ -8,6 +8,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.oga.androidstudio_templates.activities.BlankActivity;
+import com.oga.androidstudio_templates.activities.BlankActivityWithFragment;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private final List<Class<? extends AppCompatActivity>> classes =
             Arrays.asList(
                     MainActivity.class,
-                    BlankActivity.class
+                    BlankActivity.class,
+                    BlankActivityWithFragment.class
             );
 
     @Override

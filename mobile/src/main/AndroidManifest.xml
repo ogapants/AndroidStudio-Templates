@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BlankActivity"
+            android:name=".activities.BlankActivity"
             android:label="@string/title_activity_blank" >
+        </activity>
+        <activity
+            android:name=".activities.BlankActivityWithFragment"
+            android:label="@string/title_activity_blank_activity_with_fragment" >
         </activity>
     </application>
 

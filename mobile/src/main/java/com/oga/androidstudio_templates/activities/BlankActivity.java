@@ -1,9 +1,11 @@
-package com.oga.androidstudio_templates;
+package com.oga.androidstudio_templates.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.oga.androidstudio_templates.R;
 
 
 public class BlankActivity extends ActionBarActivity {
