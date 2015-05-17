@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private final List<Class<? extends AppCompatActivity>> classes =
             Arrays.asList(
                     MainActivity.class,
-                    DummyActivity.class//テンプレートつくるまでのダミー
+                    BlankActivity.class
             );
 
     @Override
