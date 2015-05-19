@@ -1,8 +1,8 @@
 package com.oga.androidstudio_templates.fragments;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.app.Fragment;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +13,6 @@ import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.oga.androidstudio_templates.R;
-
 import com.oga.androidstudio_templates.fragments.dummy.DummyContent;
 
 /**
@@ -49,6 +48,13 @@ public class ItemFragment extends Fragment implements AbsListView.OnItemClickLis
      */
     private ListAdapter mAdapter;
 
+    /**
+     * Mandatory empty constructor for the fragment manager to instantiate the
+     * fragment (e.g. upon screen orientation changes).
+     */
+    public ItemFragment() {
+    }
+
     // TODO: Rename and change types of parameters
     public static ItemFragment newInstance(String param1, String param2) {
         ItemFragment fragment = new ItemFragment();
@@ -57,13 +63,6 @@ public class ItemFragment extends Fragment implements AbsListView.OnItemClickLis
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
-    }
-
-    /**
-     * Mandatory empty constructor for the fragment manager to instantiate the
-     * fragment (e.g. upon screen orientation changes).
-     */
-    public ItemFragment() {
     }
 
     @Override
