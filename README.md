@@ -1,15 +1,20 @@
 # AndroidStudio-Templates
 AndroidStudioで新規ファイル作るときに自動生成されるテンプレート集
 
-projectメニュー-> New で生成してフォーマットしただけの状態のもの
+projectメニュー-> New で生成してフォーマットしただけの状態のもの(一部ビルド通るように修正されてます)
 
 コード参照したいときに使います
 
 ## contents
-* Blank Activity
-* Blank Activity With Fragment
-* Fullscreen Activity
-* Login Activity (ビルド通るように微修正)
+* BlankActivity.java
+* BlankActivityWithFragment.java
+* BlankActivityWithFragmentFragment.java
+* FullscreenActivity.java
+* LoginActivity.java
+* PlusBaseActivity.java
+* BlankFragment.java
+* ItemFragment.java
+* PlusOneFragment.java
 
 ## AndroidStudio info
 * studio version 1.2.1.1
