@@ -1,8 +1,8 @@
 # AndroidStudio-Templates
 
-Android Studioで新規ファイル作るときに自動生成されるActivity,Fragmentのテンプレートを集めました。  
+Android Studioで自動生成できるActivity,Fragmentのテンプレート集です。
 (一部Android Studio標準のフォーマットをかけています。)  
-自動生成されたコードとその動きを参考したいときに使ってください。
+テンプレートコードとその動きを参考したいときに。
 
 # Now Version : 1.5.1
 
@@ -29,4 +29,15 @@ Android Studioで新規ファイル作るときに自動生成されるActivity,
 
 
 ## contents
-* BlankActivity.java
+
+* BlankActivity
+* BlankHierarchicalActivity
+* BlankUseFragmentActivity
+* EmptyActivity
+* NavigationDrawerActivity
+* ScrollingActivity
+* TabbedSpinnerActivity
+* TabbedSwipeActivity
+* TabbedTabsActivity
+
+
