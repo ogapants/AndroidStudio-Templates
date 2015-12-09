@@ -39,7 +39,16 @@
         <activity
             android:name=".activities.TabbedSpinnerActivity"
             android:label="@string/title_activity_tabbed_spinner"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.BlankHierarchicalActivity"
+            android:label="@string/title_activity_blank_hierarchical"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oga.androidstudio_templates.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

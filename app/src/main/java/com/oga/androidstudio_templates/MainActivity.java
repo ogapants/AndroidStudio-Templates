@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.oga.androidstudio_templates.activities.BlankActivity;
+import com.oga.androidstudio_templates.activities.BlankHierarchicalActivity;
 import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             EmptyActivity.class,
             BlankActivity.class,
             BlankUseFragmentActivity.class,
+            BlankHierarchicalActivity.class,
             NavigationDrawerActivity.class,
             TabbedSwipeActivity.class,
             TabbedTabsActivity.class,
