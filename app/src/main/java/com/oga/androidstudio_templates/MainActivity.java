@@ -14,6 +14,7 @@ import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
 import com.oga.androidstudio_templates.activities.TabbedSwipeActivity;
+import com.oga.androidstudio_templates.activities.TabbedTabsActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             BlankActivity.class,
             BlankUseFragmentActivity.class,
             NavigationDrawerActivity.class,
-            TabbedSwipeActivity.class
+            TabbedSwipeActivity.class,
+            TabbedTabsActivity.class
     );
 
     @Override

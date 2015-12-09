@@ -31,6 +31,10 @@
         <activity
             android:name=".activities.TabbedSwipeActivity"
             android:label="@string/title_activity_tabbed_swipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.TabbedTabsActivity"
+            android:label="@string/title_activity_tabbed_tabs"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
