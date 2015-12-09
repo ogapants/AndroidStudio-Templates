@@ -6,6 +6,8 @@ Android Studioで新規ファイル作るときに自動生成されるActivity,
 
 # Now Version : 1.5.1
 
+![cap](art/new_project_v1.5.1.png)
+
 ## Project info
 * Created Date : 2015/12/09
 * Android Studio version : 1.5.1
