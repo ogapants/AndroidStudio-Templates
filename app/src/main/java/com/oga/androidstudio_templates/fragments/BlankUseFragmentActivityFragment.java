@@ -1,4 +1,4 @@
-package com.oga.androidstudio_templates.activities;
+package com.oga.androidstudio_templates.fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;

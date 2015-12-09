@@ -26,15 +26,15 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private final List<Class<? extends AppCompatActivity>> classes = Arrays.asList(
-            EmptyActivity.class,
             BlankActivity.class,
-            BlankUseFragmentActivity.class,
             BlankHierarchicalActivity.class,
+            BlankUseFragmentActivity.class,
+            EmptyActivity.class,
             NavigationDrawerActivity.class,
-            TabbedSwipeActivity.class,
-            TabbedTabsActivity.class,
+            ScrollingActivity.class,
             TabbedSpinnerActivity.class,
-            ScrollingActivity.class
+            TabbedSwipeActivity.class,
+            TabbedTabsActivity.class
     );
 
     @Override
