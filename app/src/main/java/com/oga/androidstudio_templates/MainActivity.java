@@ -10,7 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.oga.androidstudio_templates.activities.BlankActivity;
+import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
+import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     private final List<Class<? extends AppCompatActivity>> classes = Arrays.asList(
             EmptyActivity.class,
-            BlankActivity.class
+            BlankActivity.class,
+            BlankUseFragmentActivity.class,
+            NavigationDrawerActivity.class
     );
 
     @Override
