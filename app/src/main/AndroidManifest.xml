@@ -49,6 +49,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.oga.androidstudio_templates.MainActivity" />
         </activity>
+        <activity
+            android:name=".activities.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

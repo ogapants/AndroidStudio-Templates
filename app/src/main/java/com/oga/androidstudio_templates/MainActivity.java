@@ -14,6 +14,7 @@ import com.oga.androidstudio_templates.activities.BlankHierarchicalActivity;
 import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
+import com.oga.androidstudio_templates.activities.ScrollingActivity;
 import com.oga.androidstudio_templates.activities.TabbedSpinnerActivity;
 import com.oga.androidstudio_templates.activities.TabbedSwipeActivity;
 import com.oga.androidstudio_templates.activities.TabbedTabsActivity;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             NavigationDrawerActivity.class,
             TabbedSwipeActivity.class,
             TabbedTabsActivity.class,
-            TabbedSpinnerActivity.class
+            TabbedSpinnerActivity.class,
+            ScrollingActivity.class
     );
 
     @Override
