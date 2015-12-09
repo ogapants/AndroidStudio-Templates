@@ -19,6 +19,10 @@
         <activity
             android:name=".activities.BlankActivity"
             android:label="@string/title_activity_blank"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.BlankUseFragmentActivity"
+            android:label="@string/title_activity_blank_use_fragment"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

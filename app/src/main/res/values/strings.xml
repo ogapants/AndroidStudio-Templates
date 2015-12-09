@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">AndroidStudio-Templates</string>
     <string name="title_activity_blank">BlankActivity</string>
+    <string name="title_activity_blank_use_fragment">BlankUseFragmentActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>
