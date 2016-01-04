@@ -39,6 +39,7 @@ Android Studioで自動生成できるActivity,Fragmentのテンプレート集�
 * FullscreenActivity
 * NavigationDrawerActivity
 * ScrollingActivity
+* SettingsActivity
 * TabbedSpinnerActivity
 * TabbedSwipeActivity
 * TabbedTabsActivity
