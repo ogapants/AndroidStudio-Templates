@@ -6,6 +6,7 @@ Android Studioで自動生成できるActivity,Fragmentのテンプレート集�
 
 # Now Version : 1.5.1
 
+![cap](art/about_as_v1.5.1.png)
 ![cap](art/new_project_v1.5.1.png)
 
 ## Project info
@@ -24,8 +25,9 @@ Android Studioで自動生成できるActivity,Fragmentのテンプレート集�
 
 * dependencies
  * junit:4.12
- * appcompat-v7:23.1.1'
- * appcompat-v7:23.1.1'
+ * com.android.support:appcompat-v7:23.1.1
+ * com.android.support:design:23.1.1
+ * com.android.support:support-v4:23.1.1
 
 
 ## contents
@@ -34,6 +36,7 @@ Android Studioで自動生成できるActivity,Fragmentのテンプレート集�
 * BlankHierarchicalActivity
 * BlankUseFragmentActivity
 * EmptyActivity
+* FullscreenActivity
 * NavigationDrawerActivity
 * ScrollingActivity
 * TabbedSpinnerActivity
