@@ -16,6 +16,7 @@ import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.FullscreenActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
 import com.oga.androidstudio_templates.activities.ScrollingActivity;
+import com.oga.androidstudio_templates.activities.SettingsActivity;
 import com.oga.androidstudio_templates.activities.TabbedSpinnerActivity;
 import com.oga.androidstudio_templates.activities.TabbedSwipeActivity;
 import com.oga.androidstudio_templates.activities.TabbedTabsActivity;
@@ -26,7 +27,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final List<Class<? extends AppCompatActivity>> classes = Arrays.asList(
+    private final List<Class<? extends Activity>> classes = Arrays.asList(
             BlankActivity.class,
             BlankHierarchicalActivity.class,
             BlankUseFragmentActivity.class,
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             FullscreenActivity.class,
             NavigationDrawerActivity.class,
             ScrollingActivity.class,
+            SettingsActivity.class,
             TabbedSpinnerActivity.class,
             TabbedSwipeActivity.class,
             TabbedTabsActivity.class
