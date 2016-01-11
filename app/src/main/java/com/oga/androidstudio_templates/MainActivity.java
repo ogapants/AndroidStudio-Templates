@@ -14,6 +14,7 @@ import com.oga.androidstudio_templates.activities.BlankHierarchicalActivity;
 import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.FullscreenActivity;
+import com.oga.androidstudio_templates.activities.LoginActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
 import com.oga.androidstudio_templates.activities.ScrollingActivity;
 import com.oga.androidstudio_templates.activities.SettingsActivity;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             BlankUseFragmentActivity.class,
             EmptyActivity.class,
             FullscreenActivity.class,
+            LoginActivity.class,
             NavigationDrawerActivity.class,
             ScrollingActivity.class,
             SettingsActivity.class,
