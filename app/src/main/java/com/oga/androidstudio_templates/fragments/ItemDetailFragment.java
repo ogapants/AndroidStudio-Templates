@@ -1,4 +1,4 @@
-package com.oga.androidstudio_templates.activities;
+package com.oga.androidstudio_templates.fragments;
 
 import android.app.Activity;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.oga.androidstudio_templates.R;
+import com.oga.androidstudio_templates.activities.ItemDetailActivity;
+import com.oga.androidstudio_templates.activities.ItemListActivity;
 import com.oga.androidstudio_templates.activities.dummy.DummyContent;
 
 /**

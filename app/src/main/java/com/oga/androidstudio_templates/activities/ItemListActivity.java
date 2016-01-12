@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.oga.androidstudio_templates.R;
 import com.oga.androidstudio_templates.activities.dummy.DummyContent;
+import com.oga.androidstudio_templates.fragments.ItemDetailFragment;
 
 import java.util.List;
 
