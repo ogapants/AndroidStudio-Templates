@@ -68,7 +68,20 @@
             android:label="@string/title_activity_settings" />
         <activity
             android:name=".activities.LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".activities.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activities.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".activities.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oga.androidstudio_templates.activities.ItemListActivity" />
+        </activity>
     </application>
 
 </manifest>
