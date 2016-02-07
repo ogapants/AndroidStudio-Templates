@@ -120,7 +120,12 @@
 
         <activity
             android:name=".activities.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
