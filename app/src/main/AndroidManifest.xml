@@ -139,7 +139,17 @@
             android:name=".others.MyContentProvider"
             android:authorities="sample-uri"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true" />
+        <!-- This service is only used on devices with API v17+ -->
+        <service
+            android:name=".others.MyDaydreamService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
