@@ -18,6 +18,7 @@ import com.oga.androidstudio_templates.activities.FullscreenActivity;
 import com.oga.androidstudio_templates.activities.ItemDetailActivity;
 import com.oga.androidstudio_templates.activities.ItemListActivity;
 import com.oga.androidstudio_templates.activities.LoginActivity;
+import com.oga.androidstudio_templates.activities.MapsActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
 import com.oga.androidstudio_templates.activities.ScrollingActivity;
 import com.oga.androidstudio_templates.activities.SettingsActivity;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             ItemDetailActivity.class,
             ItemListActivity.class,
             LoginActivity.class,
+            MapsActivity.class,
             NavigationDrawerActivity.class,
             ScrollingActivity.class,
             SettingsActivity.class,
