@@ -184,4 +184,73 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ad_mob">AdMobActivity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pref_dream_text_key">pref_dream_text</string>
+    <string name="pref_dream_text_default">zzzZZZzzz</string>
+    <string name="pref_dream_text_title">Ticker text</string>
+
+    <string name="new_message__none_notification_title_template">New message none: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message__none_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <string name="new_message__more_text_notification_title_template">New message more text: %1$s
+    </string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message__more_text_notification_placeholder_text_template">You said %1$s and
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum,
+        velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed
+        turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem,
+        ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet
+        turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat
+        nec nec tortor.
+    </string>
+
+    <string name="new_message__picture_notification_title_template">New message picture: %1$s
+    </string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message__picture_notification_placeholder_text_template">You said %1$s and
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum,
+        velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed
+        turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem,
+        ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet
+        turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat
+        nec nec tortor.
+    </string>
+
+    <string name="new_message__list_notification_title_template">New message list: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message__list_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.oga.androidstudio_templates.views;
+package com.oga.androidstudio_templates.compornents;
 
 import android.content.Context;
 import android.content.res.TypedArray;
