@@ -251,4 +251,6 @@
         viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
         tortor.
     </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
