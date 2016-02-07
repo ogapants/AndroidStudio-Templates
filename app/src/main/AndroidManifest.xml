@@ -133,7 +133,13 @@
         <receiver
             android:name=".others.MyReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
+
+        <provider
+            android:name=".others.MyContentProvider"
+            android:authorities="sample-uri"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>
