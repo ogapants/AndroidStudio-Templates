@@ -128,7 +128,12 @@
             android:exported="true" />
         <service
             android:name=".services.MyIntentService"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <receiver
+            android:name=".others.MyReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
     </application>
 
 </manifest>
