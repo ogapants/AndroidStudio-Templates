@@ -9,11 +9,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.oga.androidstudio_templates.activities.AdMobActivity;
 import com.oga.androidstudio_templates.activities.BlankActivity;
 import com.oga.androidstudio_templates.activities.BlankHierarchicalActivity;
 import com.oga.androidstudio_templates.activities.BlankUseFragmentActivity;
 import com.oga.androidstudio_templates.activities.EmptyActivity;
 import com.oga.androidstudio_templates.activities.FullscreenActivity;
+import com.oga.androidstudio_templates.activities.ItemDetailActivity;
 import com.oga.androidstudio_templates.activities.ItemListActivity;
 import com.oga.androidstudio_templates.activities.LoginActivity;
 import com.oga.androidstudio_templates.activities.NavigationDrawerActivity;
@@ -30,11 +32,13 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private final List<Class<? extends Activity>> classes = Arrays.asList(
+            AdMobActivity.class,
             BlankActivity.class,
             BlankHierarchicalActivity.class,
             BlankUseFragmentActivity.class,
             EmptyActivity.class,
             FullscreenActivity.class,
+            ItemDetailActivity.class,
             ItemListActivity.class,
             LoginActivity.class,
             NavigationDrawerActivity.class,
