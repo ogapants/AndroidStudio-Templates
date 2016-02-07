@@ -150,6 +150,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".others.MyDaydreamService2SettingsActivity" />
+        <!-- This service is only used on devices with API v17+ -->
+        <service
+            android:name=".others.MyDaydreamService2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- Point to additional information for this dream -->
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/my_daydream_service2_info" />
+        </service>
     </application>
 
 </manifest>
